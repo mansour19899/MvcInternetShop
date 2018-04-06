@@ -152,6 +152,10 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="db\MvcShop.mdf" />
+    <Content Include="db\MvcShop_log.ldf">
+      <DependentUpon>MvcShop.mdf</DependentUpon>
+    </Content>
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
