@@ -11,13 +11,13 @@ Background Color and Pattern
 
 	
 	@font-face {
-    font-family: 'yekan';
-    src: url('fonts/BYekan.eot');
-    src: url('fonts/BYekan.eot@#iefix') format('embedded-opentype'),
-         url('fonts/BYekan.woff') format('woff'),
-         url('fonts/BYekan.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'yekan';
+	src: url('fonts/BYekan.eot');
+	src: url('fonts/BYekan.eot@#iefix') format('embedded-opentype'),
+		 url('fonts/BYekan.woff') format('woff'),
+		 url('fonts/BYekan.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 	}
 	/* Body */
 	body {
@@ -225,3 +225,6 @@ Text Color and Font
 	.footer .social-twitter .about {
 		color: #828c99;	
 	}
+.field-validation-error {
+	color: red;
+}
