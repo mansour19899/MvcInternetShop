@@ -61,6 +61,5 @@ namespace MvcInternetShop.Models.DomainModels
         [DataType(DataType.Password)]
         [Compare("Password", ErrorMessage = "تکرار پسورد یکسان نیست")]
         public string ConfirmPassword { get; set; }
-
     }
 }
