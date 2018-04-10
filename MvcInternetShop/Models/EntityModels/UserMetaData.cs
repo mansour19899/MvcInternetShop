@@ -64,11 +64,14 @@ namespace MvcInternetShop.Models.DomainModels
         [Compare("Password", ErrorMessage = "تکرار پسورد یکسان نیست")]
         public string ConfirmPassword { get; set; }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 4bca9c3... hii
 =======
 >>>>>>> parent of 4bca9c3... hii
 
+=======
+>>>>>>> parent of f7aa3e2... 56
 =======
 >>>>>>> parent of f7aa3e2... 56
     }
