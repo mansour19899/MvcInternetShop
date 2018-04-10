@@ -55,12 +55,15 @@ namespace MvcInternetShop.Models.DomainModels
     [MetadataType(typeof(MvcInternetShop.Models.EntityModels.UserMetaData))]
     public partial class User
     {
+<<<<<<< HEAD
         [Required(AllowEmptyStrings = false, ErrorMessage = "رمز عبور خود را تکرار کنید")]
         [DisplayName("تکرار رمز عبور")]
         [Display(Name = "تکرار رمز عبور")]
         [DataType(DataType.Password)]
         [Compare("Password", ErrorMessage = "تکرار پسورد یکسان نیست")]
         public string ConfirmPassword { get; set; }
+=======
+>>>>>>> parent of 4bca9c3... hii
 
     }
 }
