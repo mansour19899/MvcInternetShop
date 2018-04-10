@@ -1,6 +1,4 @@
-﻿using MvcInternetShop.Models.DomainModels;
-using MvcInternetShop.Models.Repositories;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -28,36 +26,5 @@ namespace MvcInternetShop.Controllers
 
             return View();
         }
-
-        [HttpGet]
-        public ActionResult Register()
-        {
-            return View();
-        }
-
-        [HttpPost]
-        public ActionResult Register(User user)
-        {
-            UserRepository blUser = new UserRepository();
-            if (ModelState.IsValid)
-            {
-                if (blUser.Add(user))
-                {
-                    //موفق
-                    return JavaScript("alert('با موفقیت ثبت شد');");
-                }
-                else
-                {
-                    //نا موفق
-                    return JavaScript("alert('ثبت نشد');");
-                }
-            }
-            else
-            {
-                //خطا مقداری
-                return JavaScript("alert('مقادیر ورودی اشتباه است');");
-            }
-        }
-    
-}
+    }
 }
